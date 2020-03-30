@@ -1,0 +1,9 @@
+8051:
+
+total
+ports: 
+port 0 
+port 1
+port 2
+port 3
+total 40 pins
