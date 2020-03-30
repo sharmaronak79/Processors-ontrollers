@@ -7,8 +7,10 @@ port 1:
 pin 8 to 15
 port 2:
 pin 16 to 23
+A8 - A15 (Address bus)
 port 3:
 pin 24 to 31
+for port , 
 gemeral purpose :
 32 to 39
 
@@ -16,10 +18,13 @@ gemeral purpose :
 2) osc2
 
 3)Reset
-4)ALE - Address latch Enable
+4)ALE - Address latch Enable (when it is active it will use to active for address bus for port 0, because it carries address and data)
 
-5)EA' - External accessable (active low)
-6)PSEN - programme state enable
+5)EA' - External accessable (active low) {use to access external memory for RAM}
+6)PSEN - programme state enable {use to access external memory for ROM}
 
 7)VCC
 8)GND
+
+
+we can use maximum external memory up to 64KB(RAM) + 64KB(ROM)
