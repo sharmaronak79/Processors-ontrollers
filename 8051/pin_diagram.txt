@@ -10,7 +10,18 @@ pin 16 to 23
 A8 - A15 (Address bus)
 port 3:
 pin 24 to 31
-for port , 
+
+p3.0 - TxD
+p3.1 - RxD
+p3.2 -INT0'
+p3.3 -INT1'
+p3.4 -Timer0
+p3.5 -Timer1
+p3.6 -RD'
+p3.7- WR'
+
+We can use it as normal Bus if we dont want to use this for special task as mentioned 
+
 gemeral purpose :
 32 to 39
 
