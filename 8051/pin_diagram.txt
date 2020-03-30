@@ -1,0 +1,25 @@
+for the simplicity i gave simple 0 to 39 
+
+port 0: 
+pin 0 to 7
+AD0 - AD7 (Address and data bus)
+port 1:
+pin 8 to 15
+port 2:
+pin 16 to 23
+port 3:
+pin 24 to 31
+gemeral purpose :
+32 to 39
+
+1) osc1
+2) osc2
+
+3)Reset
+4)ALE - Address latch Enable
+
+5)EA' - External accessable (active low)
+6)PSEN - programme state enable
+
+7)VCC
+8)GND
