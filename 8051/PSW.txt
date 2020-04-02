@@ -1,2 +1,8 @@
 there is one Register named 
 PSW: Programme Status Word
+it is also called as FLag register
+
+this is a bitaddressable register
+
+
+CY	CA	F0	RS1	RS0	OV P
