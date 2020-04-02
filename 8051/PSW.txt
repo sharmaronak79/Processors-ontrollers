@@ -3,6 +3,15 @@ PSW: Programme Status Word
 it is also called as FLag register
 
 this is a bitaddressable register
+SET -1
+Reset - 0
 
 
 CY	CA	F0	RS1	RS0	OV P
+
+CY - carry flag will be 1 if MSB has a carry
+AC - Auxiliray carry will be 1 if there is carry from lower nibble to higher nibble
+F0 - user defined , general purpose bit or flag
+OV - Over flow flag will be set the output is out of range like signed number has a range of -128 to 127 OR (-80H to 7FH)
+P - Parity flag , it will be one if there are odd numbers of ones in result and 0 if there are even numbers of ones
+RS1 and RS0- these bits are used to select register banks there are four regioter banks bank 0, bank 1 , bank2 , bank3
