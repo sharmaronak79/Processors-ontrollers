@@ -1,0 +1,5 @@
+1) Immediate addressing mode
+2) Register addressing mode 
+3) direct addressing mode 
+4) Indirect addressing mode 
+5) Index addressing mode 
