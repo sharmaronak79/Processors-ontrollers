@@ -14,4 +14,11 @@
          Mov 42h , A
 
 4) Indirect addressing mode 
+    Used as pointer, dptr is used
+First initialize dptr with one number , after that number will be address and exchange happen on that location
+    E.g Mov Dptr, #40h  // 40 will go in dptr
+        Mov 40h, #70h   // 70 will go at location 40h
+        Mov A, @Dptr    // here data of dptr will b now address , so data at location 40h will go in A
+     
+
 5) Index addressing mode 
