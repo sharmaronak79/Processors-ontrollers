@@ -22,3 +22,4 @@ First initialize dptr with one number , after that number will be address and ex
      
 
 5) Index addressing mode 
+   It is used in Rom operation 
