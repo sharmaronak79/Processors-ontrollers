@@ -1,5 +1,17 @@
 1) Immediate addressing mode
+   Data given in instruction 
+   E.g mov a, #70h
+       Mov R0, #56h
+
 2) Register addressing mode 
+   Register given in instruction and its value is transferred
+   E.g, Mov a, R0
+        Mov R1, a
+
 3) direct addressing mode 
+    Address given in instruction,  data from that location is transferred 
+   E.g , Mov A, 30h   // w/o # it is address
+         Mov 42h , A
+
 4) Indirect addressing mode 
 5) Index addressing mode 
