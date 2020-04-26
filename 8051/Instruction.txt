@@ -1,1 +1,5 @@
-Two types of instruction 
+Two types of instruction set
+
+
+1. Arithmetic operation 
+2. Logical operation 
