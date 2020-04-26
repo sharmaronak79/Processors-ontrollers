@@ -1,8 +1,7 @@
 Two types of instruction set
 
 
-1. Arithmetic operation 
-2. Logical operation 
+1. Arithmetic operation  
 
 
 For simple arithmetic operation 
@@ -16,3 +15,23 @@ Subtract SUB A, 30H
 Multiplication MUL A, 35H
 
 Division DIV A, #20H
+
+
+
+2. Logical operation 
+
+AND , OR , XOR 
+ 
+Some operation that we cannot do by arithmetic operation 
+In that case we have to use logical operation
+If we want to operate on particular bit or nibble then 
+We have to use logical instructions 
+
+ANL A, #25H Anding logically 
+
+ORL A, #20H oring logically 
+
+
+
+
+
