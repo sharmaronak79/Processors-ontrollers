@@ -3,3 +3,16 @@ Two types of instruction set
 
 1. Arithmetic operation 
 2. Logical operation 
+
+
+For simple arithmetic operation 
+like 
+addition ADD A , #25H  data 25
+         ADD A, 25H    data on address 25h
+         ADD A, @R0    data on address pointed by R0 register
+
+Subtract SUB A, 30H
+
+Multiplication MUL A, 35H
+
+Division DIV A, #20H
