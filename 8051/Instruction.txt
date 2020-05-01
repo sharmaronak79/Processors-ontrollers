@@ -45,5 +45,17 @@ Clear C mean make it empty or zeros
 CPL C, means complement
 
 
+4. Exchange instructions 
+
+ XCH A, 25H, means exchange data of A and data of 25 address
+
+One more important is XCHD 
+Xchd is used to exchange lower bit means if there two days like 34 and 56
+Then after xchd it will swap only lower bit 
+So it will be 36 and 54
+
+
+
+
 
 
