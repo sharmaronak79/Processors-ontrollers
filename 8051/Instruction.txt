@@ -32,6 +32,18 @@ ANL A, #25H Anding logically
 ORL A, #20H oring logically 
 
 
+3. Bit operation
+
+If we want to perform on particular bit operation then 
+This instruction are used
+
+As in previous instructions in this the carry bit works as accumulator
+
+Set B to make all one's
+Clear C mean make it empty or zeros
+
+CPL C, means complement
+
 
 
 
