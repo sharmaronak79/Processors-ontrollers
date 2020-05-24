@@ -1,0 +1,6 @@
+Pipe lineing concept comes in picture
+
+Pipe line means: while ececuting current instruction it fetches next instruction , There are two sections in architecture 
+BIU: bus interface unit and EU: Execution unit
+
+In 8086 there are two ALU each, in two section
