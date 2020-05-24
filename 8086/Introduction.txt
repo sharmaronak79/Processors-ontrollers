@@ -1,0 +1,12 @@
+it is an 16 bit processor, because it has 16 bit of data bus, so it can transfer 16 bit of data  at a same time
+
+it has much mote imrovement in the instruction than 8085
+
+thera are registers in BIU : bus interface unit, which contains base address of 
+CS - code segmentation
+SS - stack segmentation
+DS - Data segmentation
+ES - Extra segmentation
+
+theses segemanttion are in memory
+
