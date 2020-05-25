@@ -1,0 +1,9 @@
+Why timer?
+For delay
+
+Two types:-
+1. Software delay
+2. Hardware delay
+
+Software delay easy and convenient,  operated by processors 
+
