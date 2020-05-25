@@ -9,3 +9,5 @@ Software delay easy and convenient,  operated by processors
 
 
 Hardware delay uses extra hardware, high cost compare to software delay
+
+But increase the speed as it keeps processor free from execute the delay function like loop or no operation functiln
