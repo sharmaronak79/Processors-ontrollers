@@ -18,3 +18,4 @@ Two SFR : TCON TMOD
 TCON: TF1 TF0 TR1 TRO IE1 IE0 IT1 IT0
 
 TMOD : GATE1 C/T'1 M1 MO GATE2 C/T'0 M1 MO
+     In tmod first 4 bit for timer1 last 4 bit for timer 0
