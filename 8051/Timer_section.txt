@@ -16,3 +16,5 @@ But increase the speed as it keeps processor free from execute the delay functio
 Two SFR : TCON TMOD
 
 TCON: TF1 TF0 TR1 TRO IE1 IE0 IT1 IT0
+
+TMOD : GATE1 C/T'1 M1 MO GATE2 C/T'0 M1 MO
