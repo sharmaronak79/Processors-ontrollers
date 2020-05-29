@@ -1,3 +1,5 @@
 I tried potentiometer with Rdunio uno and check it 
 
 We can measure variation on plotter 
+
+In rodino ide go to Tools>plotter for graphical view
