@@ -1,0 +1,41 @@
+bharat acahrya programming visdeo
+
+1) WAP to add the contents of internak RAM locations 41h and40h, an dstore sum to 42h an darry to 43h
+       MOV 43H ,#40H // initialize 43h as 00 for carry 
+       MOV A, 40H
+       ADD A,41H
+       MOV 42H,A  // to store sum
+       JNC SKIP
+       INC 43H   //TO store carry
+ SKIP: SJMP SKIP
+ 
+ 2) WAP to multiply the numbers B2H and F2H. store resuklt in register R0 (LSB) and R1 (MSB) of bank 2
+ 
+ for bank 2 we have to set RS1 snd reset RS0 of psw bit 4 and 3
+
+     SET PSD.4
+     CLR PSW.3
+     MOV A, #0B2H
+     MOV B, #2FH
+     MUL AB
+     MOV R0,A
+     MOV R1,B
+HERE: SJMP HERE
+ 
+ 
+ 3) WAP TO ADD A SERIES OF 10 NUMBERS , series stsrt from locations 20h in internal RAM, store the result at locations 30h and 31h
+ 
+   START :MOV R1,#0AH
+          MOV R0,#20H
+          CLR A
+          MOV B,#00H
+   REPEAT:ADD A, @R0
+          JNC SKIP
+          INC B
+     SKIP:INC RO
+          DJNZ R1, REPEAT
+          MOV 30H, A
+          MOV 31H, B
+    HERE: SJMP HERE
+    
+    4)
