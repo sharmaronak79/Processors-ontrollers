@@ -6,3 +6,15 @@ Timer1
 Serial port interrupt TI or RI
 transmitt interrupt or Receiver interrupt
 
+two SFRs IE-             EA -- ET2 ES ET1 EX1 ET0 EX0
+IE.0- enable external interrupt 0
+ie.1 - enable timer 0 interrupt
+ie.2 - enable external interruot 1
+ie.3 -enable tier 1 interrupt
+ie.4 - enable serial interrupt
+ie.5- reserved 
+ie.6-
+ie.7 - enable all
+
+another is IP -   -- -- PT2 PS PT1 PX1 PT0 PT0
+
