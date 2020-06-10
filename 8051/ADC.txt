@@ -1,0 +1,11 @@
+Bharatacahryaeducation/ADC
+
+
+ADC is analog to digital converter , 
+what is analog: - analog is not a contionous wave form , it is a form of varied voltage , like when we speak mic changes our sound waves 
+in to voltage ( as mic is a transducer which convrts one type of energy into another type of energy)
+now ADC will convert that voltage into digital but again digital is not only 0 and 1; obviously it is stored in to 0 and 1 but as per ADC it would be
+2 bit, 4 bit , 8 bit it samples the signal with the help of reference voltage , it divides equaly and data(or signal) will have a value from 00H to FFH
+if the ADC if 8 bit then data will be from 0000H to FFFFh
+
+so as per our requirement we choose ADC and thts is how it works
