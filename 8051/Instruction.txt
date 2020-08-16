@@ -12,7 +12,7 @@ addition ADD A , #25H  data 25
 
 Subtract SUB A, 30H
 
-Multiplication MUL A, 35H
+Multiplication MUL A, 25H
 
 Division DIV A, #20H
 
