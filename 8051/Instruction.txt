@@ -1,5 +1,5 @@
 Two types of instruction set
-
+ 
 
 1. Arithmetic operation  
 
