@@ -1,4 +1,4 @@
-total 5 interruots
+Total 5 interruots
 INT0
 INT1
 Timer0
