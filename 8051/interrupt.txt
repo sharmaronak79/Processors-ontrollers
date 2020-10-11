@@ -4,7 +4,7 @@ INT1
 Timer0
 Timer1
 Serial port interrupt TI or RI
-transmitt interrupt or Receiver interrupt
+Transmitt interrupt or Receiver interrupt
 
 two SFRs IE-             EA -- ET2 ES ET1 EX1 ET0 EX0
 IE.0- enable external interrupt 0
