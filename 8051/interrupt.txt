@@ -16,5 +16,5 @@ ie.5- reserved
 ie.6-
 ie.7 - enable all
 
-another is IP -   -- -- PT2 PS PT1 PX1 PT0 PT0
+another is IP -   -- --  PT2 PS PT1 PX1 PT0 PT0
 
