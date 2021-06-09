@@ -3,3 +3,16 @@ I2C Info – I2C Bus, Interface and Protocol
 I2C is a serial protocol for two-wire interface to connect low-speed devices like microcontrollers, EEPROMs, A/D and D/A converters, 
 I/O interfaces and other similar peripherals in embedded systems. It was invented by Philips and now it is used by almost all major IC manufacturers. 
 Each I2C slave device needs an address – they must still be obtained from NXP (formerly Philips semiconductors).
+
+
+I2C bus is popular because it is simple to use, there can be more than one master,
+only upper bus speed is defined and only two wires with pull-up resistors are needed to connect almost unlimited number of I2C devices. 
+I2C can use even slower microcontrollers with general-purpose I/O pins since they only need to generate correct Start and Stop conditions 
+in addition to functions for reading and writing a byte.
+
+Each slave device has a unique address. Transfer from and to master device is serial and it is split into 8-bit packets. 
+All these simple requirements make it very simple to implement I2C interface even with cheap microcontrollers that have no special I2C hardware controller.
+You only need 2 free I/O pins and few simple i2C routines to send and receive commands.
+
+The initial I2C specifications defined maximum clock frequency of 100 kHz. This was later increased to 400 kHz as Fast mode. 
+There is also a High speed mode which can go up to 3.4 MHz and there is also a 5 MHz ultra-fast mode.
