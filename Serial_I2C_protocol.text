@@ -1,0 +1,5 @@
+I2C Info – I2C Bus, Interface and Protocol
+
+I2C is a serial protocol for two-wire interface to connect low-speed devices like microcontrollers, EEPROMs, A/D and D/A converters, 
+I/O interfaces and other similar peripherals in embedded systems. It was invented by Philips and now it is used by almost all major IC manufacturers. 
+Each I2C slave device needs an address – they must still be obtained from NXP (formerly Philips semiconductors).
