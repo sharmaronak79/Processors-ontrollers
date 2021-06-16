@@ -14,3 +14,9 @@ can store their data temporarily.
 It communicates with the controller node through remote switching units (RSUs),
  which are used to pass all the transactions in the network. 
 The transactional data passed through the controller node is stored in its local storage and is authenticated by the miner node. Each miner node consists of various blocks and a ledger. A ledger is used to store the transaction information at any given instant of time. After the authentication of a transaction, the transactional data is appended into the blocks.
+
+
+Normal nodes: Normal nodes contain the full copy of the complete blockchain.
+ They are used for verification, coordination, and validation of the transactions, which is authenticated by the miner nodes. The distributed blockchain network of nodes is as shown in Fig 1.
+Fig. 1
+
